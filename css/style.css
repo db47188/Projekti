@@ -108,3 +108,48 @@ body{
     padding-top:50px;
     color: #05386B;
 }
+/*-------------------ABOUT--------------*/
+#contentAbout{
+    height: 562px;
+    margin: 0;
+    background:#5CDB95;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    overflow: hidden;
+    background-attachment: fixed;   
+    
+}
+
+#about-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    
+}
+#about-us h1{
+    font-size: 22pt;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 9%;
+
+}
+
+.description{ 
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: #05386B;
+    width: 100%;
+    max-width: 750px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.justify-content{
+    display: flex;
+    justify-content: center;
+}
+.align-items{
+    display: flex;
+    align-items: center;
+}
