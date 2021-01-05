@@ -3,6 +3,10 @@
     <head>
         <title>Projekti ne Web</title>
         <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+        <link rel="stylesheet" type="text/css" href="../css/mobile.css" media="screen and (min-width: 320px) and (max-width: 500px)">
+        <link rel="stylesheet" type="text/css" href="../css/tablet.css" media="screen and (min-width: 501px) and (max-width: 768px)">
+        <link rel="stylesheet" type="text/css" href="../css/laptop.css" media="screen and (min-width: 769px) and (max-width: 992px)">
+        <link rel="stylesheet" type="text/css" href="../css/pc.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
     </head>
     <body>
         <div id="header">
@@ -18,16 +22,31 @@
             </div>
         </div>
         <div id="content">
-            <div class="posts" id="posts"></div>
+           
+            <div id="slider">
+                
+                <figure>
+                    <img src="../img/c.jpg"/>
+                    <img src="../img/c.jpg"/>
+                    <img src="../img/c.jpg"/>
+                    <img src="../img/c.jpg"/>
+                    <img src="../img/c.jpg"/>
+                    
+                </figure>
+            </div> 
         
             </div>
-        </div>
         <div id="content2">
             <form action="" id="postoForm">
                 <input type="text" id="textInput" placeholder="Shtyp postimin tuaj.">
                 <button>Post</button>
                 <button>Photo</button>
             </form>
+        </div>
+        <div id="content">
+            <div class="posts" id="posts"></div>
+        
+            </div>
         </div>
         <div id="footer">
             UBT 2020
